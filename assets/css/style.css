@@ -1,0 +1,85 @@
+/*development styles*/
+
+/*html, body{
+	height:100%;
+}
+#footer, #header, #rightContent, #leftContent {
+	background: grey;
+	border:1px solid black;
+}
+#main{
+	border:0;
+}*/
+
+/*end development styles*/
+
+/*start implemented styles*/
+html, body{
+	height:100%;
+}
+.wrapper{
+	min-height: 95%;
+}
+.navbar {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#header {
+	padding:0;
+}
+#leftContent img{
+	width:100%;
+	height: auto;
+}
+#rightContent img{
+	width:90%;
+	height: auto;
+	margin: 5%;
+}
+.thumbnail {
+	border: 0;
+}
+
+#rightContent img{
+	margin-bottom: 20px;
+
+}
+.jumbotron{
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%
+}
+.jumbotron h3{
+	padding: 10px;
+	background:grey;
+}
+#portfolio1{
+	background-image: url("../images/port1.jpg");
+}
+#portfolio2{
+	background-image: url("../images/port2.jpg");
+}
+#portfolio3{
+	background-image: url("../images/port3.jpg");
+}
+#portfolio4{
+	background-image: url("../images/port4.jpg");
+}
+p {
+    font-size: 24px;
+}
+#rightContent p{
+	margin:50px;
+}
+
+#footer{
+	background: black;
+	height: 60px;
+}
+
+.input-group{
+	margin: 20px;
+}
+/*end implemented styles*/
